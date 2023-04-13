@@ -283,6 +283,11 @@
   resolved "https://registry.npmjs.org/@eslint/js/-/js-8.38.0.tgz"
   integrity sha512-IoD2MfUnOV58ghIHCiil01PcohxjbYR/qCxsoC+xNgUwh1EY8jOOrYmu3d3a71+tJJ23uscEV4X2HJWMsPJu4g==
 
+"@hookform/resolvers@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/@hookform/resolvers/-/resolvers-3.0.1.tgz"
+  integrity sha512-n5oOt0cLw9mQNW3/k9zWaPsNWQcc0k6Jpc7XUrg2Q/AqqsHp3IVa1juqHCxczXI6uXHBa69ILc4pdtsRGyuzsw==
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.8.tgz"
@@ -2114,6 +2119,11 @@ react-dom@^18.2.0, "react-dom@>= 16.8.0", react-dom@>=16.8:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-hook-form@^7.0.0, react-hook-form@^7.43.9:
+  version "7.43.9"
+  resolved "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.43.9.tgz"
+  integrity sha512-AUDN3Pz2NSeoxQ7Hs6OhQhDr6gtF9YRuutGDwPQqhSUAHJSgGl2VeY3qN19MG0SucpjgDiuMJ4iC5T5uB+eaNQ==
+
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
@@ -2149,7 +2159,7 @@ react-router@6.10.0:
   dependencies:
     "@remix-run/router" "1.5.0"
 
-react@^18.2.0, "react@>= 16.8.0", react@>=16, react@>=16.8:
+"react@^16.8.0 || ^17 || ^18", react@^18.2.0, "react@>= 16.8.0", react@>=16, react@>=16.8:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
@@ -2568,3 +2578,8 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+zod@^3.21.4:
+  version "3.21.4"
+  resolved "https://registry.npmjs.org/zod/-/zod-3.21.4.tgz"
+  integrity sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==
